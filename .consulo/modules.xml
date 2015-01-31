@@ -19,7 +19,7 @@
             </library>
           </orderEntry>
           <orderEntry type="dot-net-library" name="mscorlib" />
-          <orderEntry type="dot-net-library" name="System.Windows.Forms" />
+          <orderEntry type="library" name="nunit" level="project" />
         </module-layer>
         <module-layer name="Mono Debug">
           <extension id="mono-csharp" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
@@ -38,6 +38,7 @@
             </library>
           </orderEntry>
           <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="library" name="nunit" level="project" />
         </module-layer>
       </module>
     </modules>

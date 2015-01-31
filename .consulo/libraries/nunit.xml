@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="nunit">
+    <binaries>
+      <root url="netdll://F:/nunit-ext/nunit/nunit.core.dll!/" />
+      <root url="netdll://F:/nunit-ext/nunit/nunit.core.interfaces.dll!/" />
+      <root url="netdll://F:/nunit-ext/nunit/nunit.framework.dll!/" />
+      <root url="netdll://F:/nunit-ext/nunit/nunit.util.dll!/" />
+    </binaries>
+  </library>
+</component>
