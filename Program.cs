@@ -1,6 +1,8 @@
 ﻿using NUnit.Core;
 using System;
+#if !MONO
 using System.Windows.Forms;
+#endif
 using Thrift.Protocol;
 using Thrift.Transport;
 using org.mustbe.consulo.execution.testframework.thrift.runner;
@@ -105,8 +107,7 @@ namespace consulo_nunit_wrapper {
       }
       catch(Exception e) {
 				#if !MONO
-
-  MessageBox.Show(e.Message + "\n" + e.StackTrace);
+        MessageBox.Show(e.Message + "\n" + e.StackTrace);
 				#else
         System.Console.WriteLine(e.Message + "\n" + e.StackTrace);
 				#endif
